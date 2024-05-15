@@ -4,6 +4,7 @@ class Advert {
     private $userid;
     private $title;
 
+    //contructor from assoc array, for easy sql response handle
     public function __construct($data) {
         $this->id = $data['id'];
         $this->userid = $data['userid'];
