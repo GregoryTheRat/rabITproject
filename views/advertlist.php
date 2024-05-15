@@ -11,7 +11,7 @@
         <h1>ADVERTS</h1>
     </div>
 
-    <div class="table-containter">
+    <div class="table-container">
     <table>
         <tr>
             <th>Advert id</th>

@@ -20,9 +20,13 @@ a:hover {
     text-align: center;
 }
 
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
 
 table {
-    margin: auto;
     width: 60%;
     border-collapse: collapse;
     border: black 3px solid;
