@@ -26,6 +26,8 @@ table {
     width: 60%;
     border-collapse: collapse;
     border: black 3px solid;
+
+    font-size: larger;
 }
 
 th{
