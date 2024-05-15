@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^view/advertlist\.php$ - [L]
+RewriteRule ^view/userlist\.php$ - [L]
+
+# Redirect all other requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
