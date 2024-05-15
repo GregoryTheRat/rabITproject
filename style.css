@@ -1,0 +1,32 @@
+body {
+    background-color:#F9DEC9;
+}
+
+a {
+    color: #3F0D12;
+    padding: 15px;
+}
+
+.header-container {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #99B2DD;
+}
+
+tr {
+    background-color:#E9AFA3;
+}
+
+td {
+    text-align: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}

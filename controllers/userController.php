@@ -2,6 +2,8 @@
 include_once("config/db.php");
 include_once("models/user.php");
 class UserController {
+    
+    //display corresponding view
     static function index() {
         include_once("views/userlist.php");
     }

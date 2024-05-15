@@ -1,4 +1,6 @@
 <?php
+
+//include the corresponding controller and call index() to display view
 function route($url) {
     switch ($url) {
         case "/rabITproject/index":
