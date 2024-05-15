@@ -3,8 +3,17 @@ body {
 }
 
 a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
     color: #3F0D12;
+    opacity: 0.4;
     padding: 15px;
+    transition-duration: 300ms;
+}
+
+a:hover {
+    opacity: 1;
 }
 
 .header-container {
@@ -13,12 +22,15 @@ a {
 
 
 table {
-    width: 100%;
+    margin: auto;
+    width: 60%;
     border-collapse: collapse;
+    border: black 3px solid;
 }
 
 th{
     background-color: #99B2DD;
+    padding: 20px 0px;
 }
 
 tr {
@@ -27,6 +39,7 @@ tr {
 
 td {
     text-align: center;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    border: black solid 1px;
+
+    padding: 6px;
 }
